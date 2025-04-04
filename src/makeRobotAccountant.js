@@ -15,9 +15,7 @@ function makeRobotAccountant() {
       return first + second;
     }
 
-    if (count > 3) {
-      return count % 2 === 0 ? 'Bzzz... Error!' : first + second;
-    }
+    return count % 2 === 0 ? 'Bzzz... Error!' : first + second;
   };
 
   return getSum;
